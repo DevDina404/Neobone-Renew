@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Neobone-Renew/static/css/main.a617e044.chunk.css",
+    "main.js": "/Neobone-Renew/static/js/main.9a507a24.chunk.js",
+    "main.js.map": "/Neobone-Renew/static/js/main.9a507a24.chunk.js.map",
+    "runtime-main.js": "/Neobone-Renew/static/js/runtime-main.c1dca8d7.js",
+    "runtime-main.js.map": "/Neobone-Renew/static/js/runtime-main.c1dca8d7.js.map",
+    "static/css/2.591db2b6.chunk.css": "/Neobone-Renew/static/css/2.591db2b6.chunk.css",
+    "static/js/2.bbcd358f.chunk.js": "/Neobone-Renew/static/js/2.bbcd358f.chunk.js",
+    "static/js/2.bbcd358f.chunk.js.map": "/Neobone-Renew/static/js/2.bbcd358f.chunk.js.map",
+    "static/js/3.d0eac540.chunk.js": "/Neobone-Renew/static/js/3.d0eac540.chunk.js",
+    "static/js/3.d0eac540.chunk.js.map": "/Neobone-Renew/static/js/3.d0eac540.chunk.js.map",
+    "index.html": "/Neobone-Renew/index.html",
+    "static/css/2.591db2b6.chunk.css.map": "/Neobone-Renew/static/css/2.591db2b6.chunk.css.map",
+    "static/css/main.a617e044.chunk.css.map": "/Neobone-Renew/static/css/main.a617e044.chunk.css.map",
+    "static/js/2.bbcd358f.chunk.js.LICENSE.txt": "/Neobone-Renew/static/js/2.bbcd358f.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1dca8d7.js",
+    "static/css/2.591db2b6.chunk.css",
+    "static/js/2.bbcd358f.chunk.js",
+    "static/css/main.a617e044.chunk.css",
+    "static/js/main.9a507a24.chunk.js"
+  ]
+}
