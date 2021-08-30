@@ -1,0 +1,152 @@
+    {
+        "about": {
+            "paragraph": "The twilight zone in one's life comes with a package of health problems. More so in today’s sedentary indoor lifestyle, more and more people are prone to Orthopaedic problems even as early as their mid-forties. As these ailments start to surmount, people realize that routine activities like walking, shopping, driving, etc. which were the least of their concerns suddenly are no longer easy or even possible. Looking back then would be hindsight and may sometimes be too late.<br /> <br /> Our goal is to provide access to world-class Orthopaedic Wellness care at an affordable cost. With our state-of-art infrastructure, dedicated and expert team of Orthopaedic Surgeons, Rehabilitation Specialists, Physiotherapists, and support staff, we achieve this goal to perfection. The treatments offered at Neobone Renew are done after an extensive assessment of our patient’s ailment. Surgery is the last resort we recommend when other less invasive modalities are not effective.<br /> <br />Our aim is a quick and complete rehabilitation of patients. A warm, clean environment with tranquillity provides a “friendly, at home feel”.  At Neobone Renew we are committed to providing the best orthopaedic solutions for you and your family",
+            "philosophy": "\"It is better to prepare and prevent rather than repair and repent\"",
+            "mission": [
+                "State-of-art Treatment           – Provide a State-of-the art Orthopaedic Wellness care at an affordable cost",
+                "Customised Care                  – Customised treatment and quicker rehabilitation",
+                "Educative Approach              – Patient Education with a focus on prevention which will help them enjoy a lifetime of good bone health"
+            ]
+        },
+        "services": [
+            {
+                "id": 0,
+                "bg": "./images/bg1.jpg",
+                "title": "Back Pain and Neck Pain",
+                "text": "We provide comprehensive therapy for spinal disorders. Our state-of-the-art equipments including India's first DTS: Spinal Decompression Therapy treatment, helps us achieve desired results non-surgically."
+            },
+            {
+                "id": 1,
+                "bg": "./images/bg2.jpg",
+                "title": "Post Fracture treatment",
+                "text": "After healing of fracture whether treated operatively or non-operatively needs support for better mobility of the injured bone and joints. We specialize in the treatment of such conditions and ensure restoration to active life."
+            },
+            {
+                "id": 2,
+                "bg": "./images/bg3.jpg",
+                "title": "Women Health Care",
+                "text": "<ul><li>Post Pregnancy back pain</li> <li>Pelvic pain</li> <li>Abdominal weakness, especially after Caesarean births </li> <li>Pelvic floor weakness</li> <li>Ligament and muscle strains</li><li> Abdominal muscle separation</li></ul>"
+            },
+            {
+                "id": 3,
+                "bg": "./images/bg4.jpg",
+                "title": "Neurorehabilitation ",
+                "text": "Neurological rehabilitation is a complex medical process that aims to aid recovery from a nervous system injury, and to minimize or compensate for any functional alterations resulting from it."
+            },
+            {
+                "id": 4,
+                "bg": "./images/bg5.jpg",
+                "title": "Geriatric Rehabilitation",
+                "text": "To maintain functional independence in the elderly, Geriatric rehabilitation ensures the restoration of the musculoskeletal system because of  aging , disuse and deconditioning"
+            },
+            {
+                "id": 5,
+                "bg": "./images/bg6.png",
+                "title": "Arthritis",
+                "text": "Arthritis causes stiffness and swelling of the joints, which needs physical therapy support for the restoration of mobility and reduce disability in daily life."
+            },
+            {
+                "id": 6,
+                "bg": "./images/bg7.jpg",
+                "title": "Post Surgery Rehabilitation",
+                "text": "Following a fracture surgery or a joint replacement, careful assessment of the operated region and gradual restoration of the movement and functionality is imperative to achieve normal activities of daily living."
+            },
+            {
+                "id": 7,
+                "bg": "./images/bg8.jpg",
+                "title": "Occupational Orthopaedics",
+                "text": "Long sitting working hours, bad posture, and poor lifestyle are the foremost reason for the increase in incidence. At Neobone renew we help restore prior level of function with appropriate therapies and corrective lifestyle changes."
+            }
+        ],
+        "why": [
+            {
+                "icon": "./images/icon1.png",
+                "title": "First of its kind",
+                "text": "Neobone Renew is the first of its kind facility in the country focusing exclusively on orthopaedic problems from a wellness point of view and forerunner in the Orthopaedic Wellness concept."
+            },
+            {
+                "icon": "./images/icon2.png",
+                "title": "Affordable Treatment",
+                "text": "Our goal is to provide access to world-class Orthopaedic Wellness care at an affordable cost. Wellness is no longer a privilege of the wealthy. "
+            },
+            {
+                "icon": "./images/icon3.png",
+                "title": "Dedicated Patient Care",
+                "text": "Neobone Renew is well staffed with well trained medical and paramedical resources who ensure dedicated attention to each patient. When you visit Neobone Renew you have made a friend for life!"
+            },
+            {
+                "icon": "./images/icon4.png",
+                "title": "Non-Operative & Non-painful treatments",
+                "text": "Neobone Renew takes a Non-operative and multimodality approach such as Medicine, Electrotherapy, Exercise, bracing, etc. for musculoskeletal rehabilitation. Surgery is the last resort we recommend when other less invasive modalities are not effective."
+            },
+            {
+                "icon": "./images/icon5.png",
+                "title": "Preventive Remedies",
+                "text": "Neobone Renew offers early detection, treatment and Preventive remedies that will stop the deterioration of your bones and joints, ensuring a lifetime of good bone health and thereby quality life."
+            },
+            {
+                "icon": "./images/icon6.png",
+                "title": "Patient Education & Total Transparency",
+                "text": "We believe that the healing process is holistic and has relevance to the mind as much as to the body.We give our patients the luxury of elaborate interactions/consultations with our experienced Orthopaedic surgeon before starting any treatment.  "
+            }
+        ],
+        "testimonials": [
+            {
+                "name": "Jayasree Kannan",
+                "review": "I have taken treatment for my Spine and Right wrist Rehab referred by Dr. Naresh. I have taken treatment for 15 days by Dr. Sreemathy at this centre I am happy to say this rehab service is worth and Dr. Sreemathy is an excellent trainer and has given the treatment well and given exercises.  She explained patiently all my questions.  Thank you very much."
+            },
+            {
+                "name": "Raghuram Marur",
+                "review": "I underwent therapy for a painful injury around my shoulder blade. Ten days of therapy helped me get rid of about 80% of the pain. I am able to move my arm without any issues. Thanks to Dr.Naresh, Rajesh and Alphonse for taking care of me. "
+            },
+            {
+                "name": "Sheela Vinu",
+                "review": "I was suffering from severe neck pain and right shoulder discomfort. I was unable to do any work for past couple of month. After my 10 days of rehab therapy now I am recovered from intense pain. Friendly atmosphere and good approach towards patient. Doctors and staffs were very polite and dedicated. Hearty thanks to Dr. Naresh and Dr. Punitha."
+            },
+            {
+                "name": "Anand Balaji",
+                "review": "Team is very dedicated. Physio Mr Rajesh and the doctors are excellent. Definitely recommended. They could just look to extend their timings a bit which could help office goers. Good team doing a great job.  "
+            },
+            {
+                "name": "Olivia Benny",
+                "review": "I was affected with severe neck pain and through social media came to know about this clinic. Consulted Dr. Sreemathy and had cervical rehabilitation for 10-11 days, within this time period I was able to see a big change with my neck pain. I am really happy with the service I received here and would recommend this clinic too."
+            }
+        ],
+        "faq": [
+            {
+                "id": "question-1",
+                "question": "What is Neobone Renew?",
+                "answer": "Neobone Renew is a center for treatment of Bone and Joint disorders (also called Musculoskeletal disorders), arising out of various causes. It can be as a result of the aging process, work related, sports injuries, or even pregnancy."
+            },
+            {
+                "id": "question-2",
+                "question": "How is it different from Physiotherapy?",
+                "answer": "The functional Rehabilitation program is an advancement of the traditional elements of physiotherapy. RFR(Renew Functional Rehabilitation) imparts strength, flexibility, enhances agility, and improves kinesthetic performance. It enables you to participate at pre-injury levels of activity in everyday life, work or sports while reducing the risk of recurrent injury."
+            },
+            {
+                "id": "question-3",
+                "question": "Can all problems be treated non surgically at Neobone Renew?",
+                "answer": "Most of the musculoskeletal problems do not require surgical intervention if diagnosed early, treated appropriately and adequately. At Neobone Renew we specialize in the diagnosis, treatment and Prevention of these ailments and we provide nonsurgical and minimally invasive solutions."
+            },
+            {
+                "id": "question-4",
+                "question": "Do I need doctors prescription for treatment?",
+                "answer": "Absolutely not. At Neobone Renew, Our team of Rehab consultants are trained to handle you with care, giving the correct guidelines, educating, and helping you take an informed decision. We have our own panel of Medical Specialists like Orthopaedic Surgeons, Neurosurgeons , Neuro physicians, etc., who guide us in giving quick recovery."
+            },
+            {
+                "id": "question-5",
+                "question": "Are these treatments Painful and do they have any side effects?",
+                "answer": "No. These treatments are totally pain-free and safe. Sometimes even the requirement of unnecessary medications and pain killers can be avoided with treatment at Neobone Renew."
+            },
+            {
+                "id": "question-6",
+                "question": "Can these treatments be done for all ages?",
+                "answer": "Age no bar. The rehabilitation solutions are for all age groups depending on the nature of the problem and what treatment is prescribed?"
+            },
+            {
+                "id": "question-7",
+                "question": "What is Occupational Orthopaedics ( or ) work-related Musculoskeletal disorders?",
+                "answer": "When we work and overexert, stretch beyond our performance limits, consistently over a continuous period of time, we experience overfatigue of our muscles, ligaments, and bones.This is predominantly seen in certain professionals like software engineers, workers engaged in the manufacturing industry, etc. At Neobone Renew we specialize in early detection and appropriate treatment of these ailments to reduce disability and enhance productivity."
+            }
+        ]
+    }
