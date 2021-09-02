@@ -1,3 +1,4 @@
+/*---------------------------------------General----------------------------------*/
 body, html {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility !important;
@@ -6,6 +7,28 @@ body, html {
 	height: 100% !important;
 }
 
+.section-title {
+	margin-bottom: 40px;
+}
+.section-title h2 {
+	position: relative;
+	margin: 10px;
+	padding-bottom: 15px;
+}
+.section-title h2::after {
+	position: absolute;
+	content: "";
+	background-color: #FF6100;
+	height: 4px;
+	width: 60px;
+	bottom: 0;
+	margin-left: -30px;
+	left: 50%;
+}
+
+
+
+/*---------------------------------------NAV----------------------------------*/
 .navbar-nav , .navbar-toggle{
 	margin-top: 25px;
 }
@@ -83,137 +106,108 @@ body, html {
 }
 
 
+/*---------------------------------------Landing----------------------------------*/
 .carousel-control-next,
 .carousel-control-prev , .carousel-indicators {
     filter: invert(100%);
 }
-
-
-.section-title {
-	margin-bottom: 40px;
-}
-.section-title h2 {
-	position: relative;
-	margin: 10px;
-	padding-bottom: 15px;
-}
-.section-title h2::after {
-	position: absolute;
-	content: "";
-	background-color: #FF6100;
-	height: 4px;
-	width: 60px;
-	bottom: 0;
-	margin-left: -30px;
-	left: 50%;
-}
-
 .landing{
 	position: relative;
 }
 .carousel-indicators li{
 	width: 10px;
 }
-.why-icons{
-height: 100px;
-}
-
-.testimonials .card{
-	height: 100%;
-}
-
-.testimonials, .contact{
-	color: #e4e4e4;
-	background-color: #333333;
-}
-.item{
-	margin: auto;
-	z-index: 50;
-}
-.review{
-	padding: 25px;
-    text-align: left;
-	height: 420px;
-	margin: auto;
-	text-align: justify;
-	justify-content: center;
-}
-
-.review h6{
-	color: #FF6100;
-}
-
-.arrow-right{
-	right: -40px;
-    position: absolute;
-    top: 45%;
-}
-.arrow-left{
-	left: -40px;
-    position: absolute;
-    top: 45%;
-}
-.owl-nav {
-font-size: 30px; 
-color: white;
-}
-.owl-carousel .owl-nav .owl-prev:before{
-display: none;
-}
-.owl-carousel .owl-nav .owl-next:after{
-display: none;
-}
-
-.review h6{
+.scroll-down {
+	border: 2px solid #000;
+	border-radius: 20px;
+	bottom: 60px;
+	height: 50px;
+	left: 0;
+	margin: 0 auto;
 	position: absolute;
-	bottom: 10px;
-}
-.testimonials .card{
-	background-color: #3c3c3c;
-	margin: 0 5px;
-}
+	right: 0;
+	width: 30px;
+  }
+  .scroll-down::before {
+	animation: scrollDownAnimation 2s infinite;
+	background-color: #000;
+	border-radius: 100%;
+	content: '';
+	height: 6px;
+	left: 0;
+	margin: 0 auto;
+	position: absolute;
+	right: 0;
+	top: 10px;
+	width: 6px;
+  }
+  @-moz-keyframes scrollDownAnimation {
+	0% {
+	  opacity: 0;
+	  transform: translate(0, 0);
+	}
+	40% {
+	  opacity: 1;
+	}
+	80% {
+	  opacity: 0;
+	  transform: translate(0, 20px);
+	}
+	100% {
+	  opacity: 0;
+	}
+  }
+  @-webkit-keyframes scrollDownAnimation {
+	0% {
+	  opacity: 0;
+	  transform: translate(0, 0);
+	}
+	40% {
+	  opacity: 1;
+	}
+	80% {
+	  opacity: 0;
+	  transform: translate(0, 20px);
+	}
+	100% {
+	  opacity: 0;
+	}
+  }
+  @-o-keyframes scrollDownAnimation {
+	0% {
+	  opacity: 0;
+	  transform: translate(0, 0);
+	}
+	40% {
+	  opacity: 1;
+	}
+	80% {
+	  opacity: 0;
+	  transform: translate(0, 20px);
+	}
+	100% {
+	  opacity: 0;
+	}
+  }
+  @keyframes scrollDownAnimation {
+	0% {
+	  opacity: 0;
+	  transform: translate(0, 0);
+	}
+	40% {
+	  opacity: 1;
+	}
+	80% {
+	  opacity: 0;
+	  transform: translate(0, 20px);
+	}
+	100% {
+	  opacity: 0;
+	}
+  }
 
-.map{
-	width: 100%;
-	height: 300px;
-	border:0 ;
-	margin-top: 15px;
-}
-#contact .alert-msg{
-	color: rgba(0, 0, 0, 0.85);
-    font-size: 14px;
-    background-color: white;
-    width: fit-content;
-    padding: 6px 20px;
-    box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%), 0 9px 28px 8px rgb(0 0 0 / 5%);
-    display: inline-block;
-    position: fixed;
-    top: 15%;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1010;
-}
-#contact .alert-msg span{
-	color: white;
-    padding: 1px 5px;
-    margin-right: 4px;
-    border-radius: 50%;
-}
 
-#contact .alert-msg .success{
-    background-color: #52c41a;
-}
-#contact .alert-msg .error {
-	background-color: #ff4d4f;
-}
-.contact .info{
-	text-align: left;
-}
-
-.fit-on-top{
-	padding-top: 120px;
-	margin-top: -50px;
-}
+/*---------------------------------------About----------------------------------*/
 #about {
 	padding-top: 130px;
 	text-align: left;
@@ -289,6 +283,7 @@ display: none;
 	left: 10%;
 }
 
+/*---------------------------------------Services----------------------------------*/
 .service-card {
 	width: 15em;
 	margin: auto;
@@ -356,7 +351,71 @@ display: none;
 	font-size: .9em;
   }
 
-  .faq .card{
+
+/*---------------------------------------Why----------------------------------*/
+.why-icons{
+	height: 100px;
+	}
+/*---------------------------------------Testimonials-------------------------*/
+
+.testimonials .card{
+	height: 100%;
+}
+
+.testimonials, .contact{
+	color: #e4e4e4;
+	background-color: #333333;
+}
+.item{
+	margin: auto;
+	z-index: 50;
+}
+.review{
+	padding: 25px;
+    text-align: left;
+	height: 420px;
+	margin: auto;
+	text-align: justify;
+	justify-content: center;
+}
+
+.review h6{
+	color: #FF6100;
+}
+
+.arrow-right{
+	right: -40px;
+    position: absolute;
+    top: 45%;
+}
+.arrow-left{
+	left: -40px;
+    position: absolute;
+    top: 45%;
+}
+.owl-nav {
+font-size: 30px; 
+color: white;
+}
+.owl-carousel .owl-nav .owl-prev:before{
+display: none;
+}
+.owl-carousel .owl-nav .owl-next:after{
+display: none;
+}
+
+.review h6{
+	position: absolute;
+	bottom: 10px;
+}
+.testimonials .card{
+	background-color: #3c3c3c;
+	margin: 0 5px;
+}
+
+/*---------------------------------------Faq----------------------------------*/
+
+.faq .card{
 	border: none;
 	border-radius: 0;
 }
@@ -413,7 +472,46 @@ display: none;
 
 
 
-  #contact form { 
+/*---------------------------------------Contact----------------------------------*/
+
+.map{
+	width: 100%;
+	height: 300px;
+	border:0 ;
+	margin-top: 15px;
+}
+#contact .alert-msg{
+	color: rgba(0, 0, 0, 0.85);
+    font-size: 14px;
+    background-color: white;
+    width: fit-content;
+    padding: 6px 20px;
+    box-shadow: 0 3px 6px -4px rgb(0 0 0 / 12%), 0 6px 16px 0 rgb(0 0 0 / 8%), 0 9px 28px 8px rgb(0 0 0 / 5%);
+    display: inline-block;
+    position: fixed;
+    top: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1010;
+}
+#contact .alert-msg span{
+	color: white;
+    padding: 1px 5px;
+    margin-right: 4px;
+    border-radius: 50%;
+}
+
+#contact .alert-msg .success{
+    background-color: #52c41a;
+}
+#contact .alert-msg .error {
+	background-color: #ff4d4f;
+}
+.contact .info{
+	text-align: left;
+}
+
+#contact form { 
 	  margin-bottom: 0;
 	  overflow: hidden;
 	  transition: height .5s;
@@ -509,102 +607,12 @@ display: none;
 	height: 0;
 }
 
-.scroll-down {
-	border: 2px solid #000;
-	border-radius: 20px;
-	bottom: 60px;
-	height: 50px;
-	left: 0;
-	margin: 0 auto;
-	position: absolute;
-	right: 0;
-	width: 30px;
-  }
-  .scroll-down::before {
-	animation: scrollDownAnimation 2s infinite;
-	background-color: #000;
-	border-radius: 100%;
-	content: '';
-	height: 6px;
-	left: 0;
-	margin: 0 auto;
-	position: absolute;
-	right: 0;
-	top: 10px;
-	width: 6px;
-  }
-  @-moz-keyframes scrollDownAnimation {
-	0% {
-	  opacity: 0;
-	  transform: translate(0, 0);
-	}
-	40% {
-	  opacity: 1;
-	}
-	80% {
-	  opacity: 0;
-	  transform: translate(0, 20px);
-	}
-	100% {
-	  opacity: 0;
-	}
-  }
-  @-webkit-keyframes scrollDownAnimation {
-	0% {
-	  opacity: 0;
-	  transform: translate(0, 0);
-	}
-	40% {
-	  opacity: 1;
-	}
-	80% {
-	  opacity: 0;
-	  transform: translate(0, 20px);
-	}
-	100% {
-	  opacity: 0;
-	}
-  }
-  @-o-keyframes scrollDownAnimation {
-	0% {
-	  opacity: 0;
-	  transform: translate(0, 0);
-	}
-	40% {
-	  opacity: 1;
-	}
-	80% {
-	  opacity: 0;
-	  transform: translate(0, 20px);
-	}
-	100% {
-	  opacity: 0;
-	}
-  }
-  @keyframes scrollDownAnimation {
-	0% {
-	  opacity: 0;
-	  transform: translate(0, 0);
-	}
-	40% {
-	  opacity: 1;
-	}
-	80% {
-	  opacity: 0;
-	  transform: translate(0, 20px);
-	}
-	100% {
-	  opacity: 0;
-	}
-  }
 
+/*------------------------------------Other devices----------------------*/
 @media (min-width: 1025px){
-	.navbar-brand{
-		margin-left:80px;
-	}
+	.navbar-brand{margin-left:80px;	}
 	.navbar-nav{margin-right: 80px;	}
-	.review{height: 380px;}
-
+	.review{height: 380px; }
 	.why .container{max-width: 70%;}
 }
 
