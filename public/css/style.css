@@ -68,9 +68,11 @@ body, html {
     background-image: none;
 	color: #FF6100;
 }
-.navbar-toggler {
+.navbar-toggler , .navbar-toggler:focus{
 	border: none;
+	outline: 0px;
 }
+
 
 .navbar-nav .active-nav{
  font-weight: bold;

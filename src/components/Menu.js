@@ -23,7 +23,7 @@ class Menu extends Component {
           <a className="navbar-brand" href="#home">
             <img src="./images/Renew.png" alt="Neobone Renew" className="logo" width="250"/>
           </a>
-          <button className="navbar-toggler navbar-toggle" type="button" id="toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
@@ -31,7 +31,7 @@ class Menu extends Component {
 
         </div>
 
-        <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div  className="collapse navbar-collapse" id="navbarToggleExternalContent">
           <Scrollspy items={['home','about', 'services', 'why', 'testimonials', 'faq' , 'contact']}
           currentClassName="active-nav" className="navbar-nav" offset={-500} >
             <a style={{display:"none"}} href="#home">Home</a>
