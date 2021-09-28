@@ -12,7 +12,7 @@ class Menu extends Component {
   };
 
   handleClose(){
-    document.getElementById('navbarNavAltMarkup').classList.remove('show')
+    document.getElementById('navbarToggleExternalContent').classList.remove('show')
     document.getElementById('toggler').classList.add('collapsed')
   }
 
@@ -23,7 +23,7 @@ class Menu extends Component {
           <a className="navbar-brand" href="#home">
             <img src="./images/Renew.png" alt="Neobone Renew" className="logo" width="250"/>
           </a>
-          <button className="navbar-toggler navbar-toggle" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler navbar-toggle" id="toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}

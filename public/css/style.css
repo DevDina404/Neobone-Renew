@@ -5,6 +5,7 @@ body, html {
 	-webkit-font-smoothing: antialiased !important;
 	width: 100% !important;
 	height: 100% !important;
+	scroll-behavior: smooth;
 }
 
 .section-title {
@@ -72,7 +73,6 @@ body, html {
 	border: none;
 	outline: 0px;
 }
-
 
 .navbar-nav .active-nav{
  font-weight: bold;
